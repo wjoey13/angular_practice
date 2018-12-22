@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'beginnings';
+
+  counter:number = 0;
+
+  bump(){
+    this.counter++;
+  }
+
+  talk(){
+    alert(`it is working and the counter is ${this.counter}!`);
+  }
 }

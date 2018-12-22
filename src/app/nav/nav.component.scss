@@ -1,0 +1,12 @@
+.navvy{
+    background-color: #333;
+    width: 100vw;
+    height: 100px; 
+    a {
+        color: white;
+        &:visited {
+            color: orange;
+            margin: 0px 20px;
+        }
+    }
+}
